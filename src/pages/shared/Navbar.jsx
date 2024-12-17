@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import AuthContext from "../../contex/AuthContex/AuthContext";
 import joblogo from "../../assets/jobslogo.png";
+
 const Navbar = () => {
   const { logOut, user } = useContext(AuthContext);
-  console.log(user);
 
   const handleSignOut = () => {
     logOut()
