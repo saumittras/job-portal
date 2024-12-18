@@ -49,7 +49,7 @@ const HotJobCard = ({ job }) => {
           <div className="card-actions justify-between items-center">
             <div>
               <p className="flex justify-center items-center">
-                <FaDollarSign /> Salary: {salaryRange.min} - {salaryRange.max}{" "}
+                Salary: <FaDollarSign /> {salaryRange.min} - {salaryRange.max}{" "}
                 {salaryRange.currency}
               </p>
             </div>
